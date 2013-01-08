@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D4E844E169BEB50006408AC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4E844D169BEB50006408AC /* Cocoa.framework */; };
+		7D4E8458169BEB50006408AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E8456169BEB50006408AC /* InfoPlist.strings */; };
+		7D4E845A169BEB50006408AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E8459169BEB50006408AC /* main.m */; };
+		7D4E845E169BEB50006408AC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E845C169BEB50006408AC /* Credits.rtf */; };
+		7D4E8461169BEB50006408AC /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E8460169BEB50006408AC /* KSAppDelegate.m */; };
+		7D4E8464169BEB51006408AC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E8462169BEB51006408AC /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D4E8449169BEB50006408AC /* Keychain Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keychain Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4E844D169BEB50006408AC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7D4E8450169BEB50006408AC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7D4E8451169BEB50006408AC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7D4E8452169BEB50006408AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D4E8455169BEB50006408AC /* Keychain Switcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Keychain Switcher-Info.plist"; sourceTree = "<group>"; };
+		7D4E8457169BEB50006408AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D4E8459169BEB50006408AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D4E845B169BEB50006408AC /* Keychain Switcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keychain Switcher-Prefix.pch"; sourceTree = "<group>"; };
+		7D4E845D169BEB50006408AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7D4E845F169BEB50006408AC /* KSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
+		7D4E8460169BEB50006408AC /* KSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
+		7D4E8463169BEB51006408AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D4E8446169BEB50006408AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4E844E169BEB50006408AC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D4E843E169BEB50006408AC = {
+			isa = PBXGroup;
+			children = (
+				7D4E8453169BEB50006408AC /* Keychain Switcher */,
+				7D4E844C169BEB50006408AC /* Frameworks */,
+				7D4E844A169BEB50006408AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D4E844A169BEB50006408AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D4E8449169BEB50006408AC /* Keychain Switcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D4E844C169BEB50006408AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D4E844D169BEB50006408AC /* Cocoa.framework */,
+				7D4E844F169BEB50006408AC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D4E844F169BEB50006408AC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D4E8450169BEB50006408AC /* AppKit.framework */,
+				7D4E8451169BEB50006408AC /* CoreData.framework */,
+				7D4E8452169BEB50006408AC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7D4E8453169BEB50006408AC /* Keychain Switcher */ = {
+			isa = PBXGroup;
+			children = (
+				7D4E845F169BEB50006408AC /* KSAppDelegate.h */,
+				7D4E8460169BEB50006408AC /* KSAppDelegate.m */,
+				7D4E8462169BEB51006408AC /* MainMenu.xib */,
+				7D4E8454169BEB50006408AC /* Supporting Files */,
+			);
+			path = "Keychain Switcher";
+			sourceTree = "<group>";
+		};
+		7D4E8454169BEB50006408AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D4E8455169BEB50006408AC /* Keychain Switcher-Info.plist */,
+				7D4E8456169BEB50006408AC /* InfoPlist.strings */,
+				7D4E8459169BEB50006408AC /* main.m */,
+				7D4E845B169BEB50006408AC /* Keychain Switcher-Prefix.pch */,
+				7D4E845C169BEB50006408AC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D4E8448169BEB50006408AC /* Keychain Switcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4E8467169BEB51006408AC /* Build configuration list for PBXNativeTarget "Keychain Switcher" */;
+			buildPhases = (
+				7D4E8445169BEB50006408AC /* Sources */,
+				7D4E8446169BEB50006408AC /* Frameworks */,
+				7D4E8447169BEB50006408AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Keychain Switcher";
+			productName = "Keychain Switcher";
+			productReference = 7D4E8449169BEB50006408AC /* Keychain Switcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D4E8440169BEB50006408AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Xuzz Productions, LLC";
+			};
+			buildConfigurationList = 7D4E8443169BEB50006408AC /* Build configuration list for PBXProject "Keychain Switcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D4E843E169BEB50006408AC;
+			productRefGroup = 7D4E844A169BEB50006408AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D4E8448169BEB50006408AC /* Keychain Switcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D4E8447169BEB50006408AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4E8458169BEB50006408AC /* InfoPlist.strings in Resources */,
+				7D4E845E169BEB50006408AC /* Credits.rtf in Resources */,
+				7D4E8464169BEB51006408AC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D4E8445169BEB50006408AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4E845A169BEB50006408AC /* main.m in Sources */,
+				7D4E8461169BEB50006408AC /* KSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D4E8456169BEB50006408AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D4E8457169BEB50006408AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D4E845C169BEB50006408AC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D4E845D169BEB50006408AC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7D4E8462169BEB51006408AC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D4E8463169BEB51006408AC /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D4E8465169BEB51006408AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7D4E8466169BEB51006408AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7D4E8468169BEB51006408AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keychain Switcher/Keychain Switcher-Prefix.pch";
+				INFOPLIST_FILE = "Keychain Switcher/Keychain Switcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D4E8469169BEB51006408AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keychain Switcher/Keychain Switcher-Prefix.pch";
+				INFOPLIST_FILE = "Keychain Switcher/Keychain Switcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D4E8443169BEB50006408AC /* Build configuration list for PBXProject "Keychain Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4E8465169BEB51006408AC /* Debug */,
+				7D4E8466169BEB51006408AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D4E8467169BEB51006408AC /* Build configuration list for PBXNativeTarget "Keychain Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4E8468169BEB51006408AC /* Debug */,
+				7D4E8469169BEB51006408AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D4E8440169BEB50006408AC /* Project object */;
+}
