@@ -12,7 +12,7 @@
 		7D4E845A169BEB50006408AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E8459169BEB50006408AC /* main.m */; };
 		7D4E845E169BEB50006408AC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E845C169BEB50006408AC /* Credits.rtf */; };
 		7D4E8461169BEB50006408AC /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E8460169BEB50006408AC /* KSAppDelegate.m */; };
-		7D4E8464169BEB51006408AC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E8462169BEB51006408AC /* MainMenu.xib */; };
+		7D4E846B169CD9CE006408AC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4E846A169CD9CE006408AC /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,7 @@
 		7D4E845D169BEB50006408AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		7D4E845F169BEB50006408AC /* KSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
 		7D4E8460169BEB50006408AC /* KSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
-		7D4E8463169BEB51006408AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7D4E846A169CD9CE006408AC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4E846B169CD9CE006408AC /* Security.framework in Frameworks */,
 				7D4E844E169BEB50006408AC /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +64,7 @@
 		7D4E844C169BEB50006408AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7D4E846A169CD9CE006408AC /* Security.framework */,
 				7D4E844D169BEB50006408AC /* Cocoa.framework */,
 				7D4E844F169BEB50006408AC /* Other Frameworks */,
 			);
@@ -84,7 +86,6 @@
 			children = (
 				7D4E845F169BEB50006408AC /* KSAppDelegate.h */,
 				7D4E8460169BEB50006408AC /* KSAppDelegate.m */,
-				7D4E8462169BEB51006408AC /* MainMenu.xib */,
 				7D4E8454169BEB50006408AC /* Supporting Files */,
 			);
 			path = "Keychain Switcher";
@@ -156,7 +157,6 @@
 			files = (
 				7D4E8458169BEB50006408AC /* InfoPlist.strings in Resources */,
 				7D4E845E169BEB50006408AC /* Credits.rtf in Resources */,
-				7D4E8464169BEB51006408AC /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +189,6 @@
 				7D4E845D169BEB50006408AC /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		7D4E8462169BEB51006408AC /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D4E8463169BEB51006408AC /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

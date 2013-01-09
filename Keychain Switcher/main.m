@@ -7,8 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "KSAppDelegate.h"
 
 int main(int argc, char *argv[])
 {
+    NSApplication *app = [NSApplication sharedApplication];
+    [app setDelegate:[[KSAppDelegate alloc] init]];
+
     return NSApplicationMain(argc, (const char **)argv);
 }
